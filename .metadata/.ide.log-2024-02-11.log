@@ -1,0 +1,38 @@
+2024-02-13 16:10:00,141 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 636813528 Bytes (1073741824)
+2024-02-13 16:10:01,444 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 663554264 Bytes (1073741824)
+2024-02-13 16:10:02,487 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 703925112 Bytes (1073741824)
+2024-02-13 16:10:03,284 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-02-13 16:10:03,286 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-13 16:10:03,286 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-13 16:10:03,286 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-02-13 16:10:03,287 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-13 16:10:03,289 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-02-13 16:10:03,589 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/MXTmpFiles/license.tmp_save
+2024-02-13 16:10:04,240 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/MXTmpFiles/license.tmp
+2024-02-13 16:10:04,437 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/MXTmpFiles/gpio.tmp_save
+2024-02-13 16:10:04,630 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/MXTmpFiles/gpio.tmp
+2024-02-13 16:10:05,075 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/Core/Src/stm32l4xx_it.c_save
+2024-02-13 16:10:05,364 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/Core/Src/stm32l4xx_it.c
+2024-02-13 16:10:05,373 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/Core/Inc/stm32l4xx_it.h_save
+2024-02-13 16:10:05,470 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/Core/Inc/stm32l4xx_it.h
+2024-02-13 16:10:05,480 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/Core/Src/stm32l4xx_hal_msp.c_save
+2024-02-13 16:10:05,616 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/Core/Src/stm32l4xx_hal_msp.c
+2024-02-13 16:10:05,618 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/MXTmpFiles/system.tmp_save
+2024-02-13 16:10:05,686 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/MXTmpFiles/system.tmp
+2024-02-13 16:10:05,691 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/Core/Inc/stm32l4xx_hal_conf.h_save
+2024-02-13 16:10:05,792 [INFO] CodeEngine:335 - Generated code: /Users/robert/Desktop/STM32/setting_up/Core/Inc/stm32l4xx_hal_conf.h
+2024-02-13 16:10:05,931 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/Core/Inc/main.h_save
+2024-02-13 16:10:06,102 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/Core/Inc/main.h
+2024-02-13 16:10:06,109 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/setting_up/Core/Src/main.c_save
+2024-02-13 16:10:06,393 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/setting_up/Core/Src/main.c
+2024-02-13 16:10:06,992 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 152mS.
+2024-02-13 16:10:07,014 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-02-13 16:10:07,333 [INFO] ConfigFileManager:1495 - The Die is : DIE415
+2024-02-13 16:10:07,358 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-02-13 16:10:07,368 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-02-13 16:10:07,380 [INFO] ApiDbMcu:508 - Load IP Config File for TOUCHSENSING
+2024-02-13 16:10:07,406 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-02-13 16:10:07,428 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-02-13 16:10:10,801 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 3767mS.
+2024-02-13 16:10:10,809 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 2mS.
+2024-02-13 16:10:10,810 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

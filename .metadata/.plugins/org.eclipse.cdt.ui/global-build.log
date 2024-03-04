@@ -1,4 +1,4 @@
-13:25:52 **** Build of configuration Debug for project HelloWorld ****
+17:53:32 **** Build of configuration Debug for project HelloWorld ****
 make -j7 all 
 arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32l476rgtx.d" -MT"Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32l476rgtx.o" "../Startup/startup_stm32l476rgtx.s"
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
@@ -18,49 +18,28 @@ Finished building: default.size.stdout
  
 Finished building: HelloWorld.list
  
-13:26:39 **** Incremental Build of configuration Debug for project HelloWorld ****
+17:53:39 **** Incremental Build of configuration Debug for project HelloWorld ****
 make -j7 all 
 arm-none-eabi-size  HelloWorld.elf 
    text	   data	    bss	    dec	    hex	filename
    3388	    100	   1900	   5388	   150c	HelloWorld.elf
 Finished building: default.size.stdout
  
-13:27:45 **** Incremental Build of configuration Debug for project HelloWorld ****
+17:54:33 **** Incremental Build of configuration Debug for project HelloWorld ****
 make -j7 all 
 arm-none-eabi-size  HelloWorld.elf 
    text	   data	    bss	    dec	    hex	filename
    3388	    100	   1900	   5388	   150c	HelloWorld.elf
 Finished building: default.size.stdout
  
-13:27:53 **** Incremental Build of configuration Debug for project HelloWorld ****
+17:56:21 **** Incremental Build of configuration Debug for project HelloWorld ****
 make -j7 all 
 arm-none-eabi-size  HelloWorld.elf 
    text	   data	    bss	    dec	    hex	filename
    3388	    100	   1900	   5388	   150c	HelloWorld.elf
 Finished building: default.size.stdout
  
-13:28:04 **** Incremental Build of configuration Debug for project HelloWorld ****
-make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
-Finished building: default.size.stdout
- 
-13:28:19 **** Incremental Build of configuration Debug for project HelloWorld ****
-make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
-Finished building: default.size.stdout
- 
-13:28:22 **** Incremental Build of configuration Debug for project HelloWorld ****
-make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
-Finished building: default.size.stdout
- 
-13:28:35 **** Incremental Build of configuration Debug for project HelloWorld ****
+17:57:50 **** Incremental Build of configuration Debug for project HelloWorld ****
 make -j7 all 
 arm-none-eabi-size  HelloWorld.elf 
    text	   data	    bss	    dec	    hex	filename

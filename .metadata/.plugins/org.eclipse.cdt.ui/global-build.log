@@ -1,48 +1,21 @@
-17:53:32 **** Build of configuration Debug for project HelloWorld ****
+11:40:04 **** Incremental Build of configuration Debug for project led ****
 make -j7 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32l476rgtx.d" -MT"Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32l476rgtx.o" "../Startup/startup_stm32l476rgtx.s"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32L4 -DSTM32 -DNUCLEO_L476RG -DSTM32L476RGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
-../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
-   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
-      |    ^~~~~~~
-arm-none-eabi-gcc -o "HelloWorld.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/robert/Desktop/STM32/HelloWorld/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HelloWorld.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: HelloWorld.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "led.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/robert/Desktop/STM32/led/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led.elf
  
-arm-none-eabi-size  HelloWorld.elf 
-arm-none-eabi-objdump -h -S HelloWorld.elf  > "HelloWorld.list"
+arm-none-eabi-size  led.elf 
+arm-none-eabi-objdump -h -S led.elf  > "led.list"
    text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
+  12596	     20	   1708	  14324	   37f4	led.elf
 Finished building: default.size.stdout
  
-Finished building: HelloWorld.list
+Finished building: led.list
  
-17:53:39 **** Incremental Build of configuration Debug for project HelloWorld ****
+11:40:08 **** Incremental Build of configuration Debug for project led ****
 make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
+arm-none-eabi-size  led.elf 
    text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
-Finished building: default.size.stdout
- 
-17:54:33 **** Incremental Build of configuration Debug for project HelloWorld ****
-make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
-Finished building: default.size.stdout
- 
-17:56:21 **** Incremental Build of configuration Debug for project HelloWorld ****
-make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
-Finished building: default.size.stdout
- 
-17:57:50 **** Incremental Build of configuration Debug for project HelloWorld ****
-make -j7 all 
-arm-none-eabi-size  HelloWorld.elf 
-   text	   data	    bss	    dec	    hex	filename
-   3388	    100	   1900	   5388	   150c	HelloWorld.elf
+  12596	     20	   1708	  14324	   37f4	led.elf
 Finished building: default.size.stdout
  

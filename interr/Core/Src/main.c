@@ -99,27 +99,27 @@ int main(void)
   {
 	  if(interState==0){
 		  HAL_Delay(100);
-		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
+		  HAL_GPIO_TogglePin(led1_GPIO_Port, led1_Pin);
 		  HAL_Delay(100);
 	  }
 	  else if(interState==1){
 		  HAL_Delay(200);
-		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
+		  HAL_GPIO_TogglePin(led1_GPIO_Port, led1_Pin);
 		  HAL_Delay(200);
 	  }
 	  else if(interState==2){
 		  HAL_Delay(500);
-		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
+		  HAL_GPIO_TogglePin(led1_GPIO_Port, led1_Pin);
 		  HAL_Delay(500);
 	  }
 	  else if(interState==3){
 		  HAL_Delay(1000);
-		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
+		  HAL_GPIO_TogglePin(led1_GPIO_Port, led1_Pin);
 		  HAL_Delay(1000);
 	  }
 	  else{
 		  HAL_Delay(2000);
-		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
+		  HAL_GPIO_TogglePin(led1_GPIO_Port, led1_Pin);
 		  HAL_Delay(2000);
 	  }
 

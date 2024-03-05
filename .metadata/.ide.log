@@ -850,3 +850,42 @@
 2024-03-05 13:02:54,965 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2669mS.
 2024-03-05 13:02:54,970 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
 2024-03-05 13:02:54,972 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-05 13:04:18,951 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 766671728 Bytes (1073741824)
+2024-03-05 13:04:19,169 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 789531352 Bytes (1073741824)
+2024-03-05 13:04:19,360 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 816267984 Bytes (1073741824)
+2024-03-05 13:04:19,662 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-05 13:04:19,662 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-05 13:04:19,663 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-05 13:04:19,663 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-05 13:04:19,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-05 13:04:19,664 [INFO] CodeGenerator:807 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.10.0.202311202037//db/
+2024-03-05 13:04:19,799 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/MXTmpFiles/license.tmp_save
+2024-03-05 13:04:19,992 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/MXTmpFiles/license.tmp
+2024-03-05 13:04:20,132 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Src/gpio.c_save
+2024-03-05 13:04:20,226 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Src/gpio.c
+2024-03-05 13:04:20,227 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Inc/gpio.h_save
+2024-03-05 13:04:20,283 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Inc/gpio.h
+2024-03-05 13:04:20,409 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Src/usart.c_save
+2024-03-05 13:04:20,515 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Src/usart.c
+2024-03-05 13:04:20,517 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Inc/usart.h_save
+2024-03-05 13:04:20,573 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Inc/usart.h
+2024-03-05 13:04:20,577 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Src/stm32l4xx_it.c_save
+2024-03-05 13:04:20,649 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Src/stm32l4xx_it.c
+2024-03-05 13:04:20,651 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Inc/stm32l4xx_it.h_save
+2024-03-05 13:04:20,702 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Inc/stm32l4xx_it.h
+2024-03-05 13:04:20,707 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Src/stm32l4xx_hal_msp.c_save
+2024-03-05 13:04:20,810 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Src/stm32l4xx_hal_msp.c
+2024-03-05 13:04:20,812 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/MXTmpFiles/system.tmp_save
+2024-03-05 13:04:20,861 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/MXTmpFiles/system.tmp
+2024-03-05 13:04:20,868 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Inc/stm32l4xx_hal_conf.h_save
+2024-03-05 13:04:20,927 [INFO] CodeEngine:335 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Inc/stm32l4xx_hal_conf.h
+2024-03-05 13:04:20,986 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Inc/main.h_save
+2024-03-05 13:04:21,046 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Inc/main.h
+2024-03-05 13:04:21,049 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/robert/Desktop/STM32/interr/Core/Src/main.c_save
+2024-03-05 13:04:21,126 [INFO] CodeEngine:279 - Generated code: /Users/robert/Desktop/STM32/interr/Core/Src/main.c
+2024-03-05 13:04:21,587 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 129mS.
+2024-03-05 13:04:21,626 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-05 13:04:21,946 [INFO] ConfigFileManager:1495 - The Die is : DIE415
+2024-03-05 13:04:24,030 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2402mS.
+2024-03-05 13:04:24,034 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-05 13:04:24,038 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.

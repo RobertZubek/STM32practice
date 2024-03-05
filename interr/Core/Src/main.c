@@ -1,4 +1,4 @@
- /* USER CODE BEGIN Header */
+/* USER CODE BEGIN Header */
 /**
   ******************************************************************************
   * @file           : main.c
@@ -55,6 +55,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+volatile uint8_t interState = 0;
 
 /* USER CODE END 0 */
 
@@ -65,7 +66,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	volatile uint8_t interState = 0;
+
 
   /* USER CODE END 1 */
 
@@ -97,29 +98,29 @@ int main(void)
   while (1)
   {
 	  if(interState==0){
-		  delay(100);
+		  HAL_Delay(100);
 		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
-		  delay(100);
+		  HAL_Delay(100);
 	  }
 	  else if(interState==1){
-		  delay(200);
+		  HAL_Delay(200);
 		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
-		  delay(200);
+		  HAL_Delay(200);
 	  }
 	  else if(interState==2){
-		  delay(500);
+		  HAL_Delay(500);
 		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
-		  delay(500);
+		  HAL_Delay(500);
 	  }
 	  else if(interState==3){
-		  delay(1000);
+		  HAL_Delay(1000);
 		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
-		  delay(1000);
+		  HAL_Delay(1000);
 	  }
 	  else{
-		  delay(2000);
+		  HAL_Delay(2000);
 		  HAL_GPIO_TogglePin(but1_GPIO_Port, but1_Pin);
-		  delay(2000);
+		  HAL_Delay(2000);
 	  }
 
     /* USER CODE END WHILE */
@@ -179,7 +180,7 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-void HAL_GPIO_EXTI_Callback(GPIO_Pin){
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 
 	if(GPIO_Pin==but1_Pin){
 		if(interState<=4){
